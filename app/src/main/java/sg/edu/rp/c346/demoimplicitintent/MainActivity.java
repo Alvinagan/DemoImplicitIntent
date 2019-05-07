@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent email = new Intent(Intent.ACTION_SEND);
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"jason_lim@rp.edu.sg"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"17010247@myrp.edu.sg"});
                 email.putExtra(Intent.EXTRA_SUBJECT, "Test Email from C347");
                 email.putExtra(Intent.EXTRA_TEXT, editTextMessage.getText());
                 email.setType("message/rfc822");
